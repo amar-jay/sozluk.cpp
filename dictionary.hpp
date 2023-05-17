@@ -44,7 +44,7 @@ void Dictionary::remove(const std::string& word) {
 	for (auto& i : this->words) {
 		if (i.turkish == word || i.english == word) {
 			// this->words.erase(i);
-			//TODO: remove word from dictionary
+			//TODO: remove word from dictionary. Is this really neccessasary?
 		}
 	}
 }
