@@ -15,7 +15,7 @@ public:
 		parse_json("assets/dictionary.json");
 	}
 	~Dictionary() {
-		this->words.clear();
+		//this->words.clear();
 	}
 	// search if word is in dictionary exists
 	bool search(const std::string& word) const;
