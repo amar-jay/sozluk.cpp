@@ -1,0 +1,19 @@
+{
+  "name": "dictionary-json",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "lib": "lib",
+    "assets": "assets"
+  },
+  "scripts": {
+    "watch": "nodemon -x \"g++ -o bin/main main.cpp\"",
+    "start": "g++ -std=c++11 -o ./bin/main ./main.cpp -lncurses && ./bin/main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
